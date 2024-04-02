@@ -42,3 +42,13 @@
   cursor: pointer;
   width: 75px;
 }
+.display {
+  margin: 10px 0px;
+}
+#res {
+  padding: 20px;
+
+  width: 290px;
+  border-radius: 5px;
+  border: none;
+}
