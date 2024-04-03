@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: medium;
 }
 .bg {
   background-image: url(/assessts/red-and-blue-calculators-yxm0myfzuym67431.jpg);
@@ -31,6 +32,14 @@
   color: whitesmoke;
   background-color: rgb(108, 102, 102);
 }
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.btn-op:hover {
+  background-color: yellow;
+  color: black;
+}
 .btn-op {
   background-color: rgb(53, 53, 172);
   color: rgb(241, 225, 103);
@@ -44,11 +53,13 @@
 }
 .display {
   margin: 10px 0px;
+  /* text-align: right; */
 }
 #res {
   padding: 20px;
-
   width: 290px;
   border-radius: 5px;
   border: none;
+  text-align: right;
+  color: black;
 }
